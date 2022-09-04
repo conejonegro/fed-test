@@ -58,25 +58,12 @@
   text-align: center;
 }
 
-/* CUSTOM STYLES */
-:root {
-  --white: #ffffff;
-}
-body{
-  background-color: #2A3035;
-}
-
-
 /* Begin styling the report items here! */
 .reports {
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 30px;
-}
-#q4Wrapper footer {
-  max-width: 300px;
-  margin: 10px auto;
 }
 #q4Wrapper article img {
   width: 100%;
@@ -87,8 +74,4 @@ body{
     grid-template-columns: auto auto;
   }
 }
-@media only screen and (max-width:560px){
-  .reports {
-    grid-template-columns: auto;
-  }
-}
+
